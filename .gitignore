@@ -15,12 +15,13 @@ env/
 # 🔹 Environment variables
 .env
 
-# 🔹 Model files (IMPORTANT - large files)
+# 🔹 Model files
 *.pkl
 *.joblib
-models/
+models/*.pkl
+models/*.joblib
 
-# 🔹 Dataset files (optional - remove if small)
+# 🔹 Dataset files (optional)
 # *.csv
 # *.xlsx
 
